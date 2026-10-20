@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+    color: black;
+}
+
+header{
+    background-color: rgb(167, 79, 8);
+    color:white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+main{
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section{
+    background-color: aquamarine;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    margin-bottom: 20px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,select{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(167, 79, 8);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+
+}
+
+#listaPets { 
+    padding-top: 10px;
+ }
+ /* ========================= */
+/* CARD DO PET */
+/* ========================= */
+
+.pet-card {
+    background-color: #f2f7f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pet-card h3 {
+    color: #388e3c;
+    margin-bottom: 10px;
+}
+
+
+/* ========================= */
+/* CARD DA VACINA */
+/* ========================= */
+
+.vacina-card {
+    background-color: #f2f7f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.vacina-card h3 {
+    color: #388e3c;
+    margin-bottom: 15px;
+}
+
+
+/* ========================= */
+/* AVISOS */
+/* ========================= */
+
+.aviso {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff3cd;
+    border: 2px solid #ffc107;
+}
+
+.aviso h2 {
+    color: #856404;
+}
+
+.aviso.atrasada {
+    background-color: #f8d7da;
+    border: 2px solid #dc3545;
+}
+
+.aviso.atrasada h2 {
+    color: #721c24;
+}
+
+.aviso.tranquilo {
+    background-color: #d4edda;
+    border: 2px solid #28a745;
+}
+
+.aviso.tranquilo h2 {
+    color: #155724;
+}
